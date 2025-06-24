@@ -1,4 +1,4 @@
-# #if only super class has __init__/constructor
+# #if only  the super class has __init__/constructor
 #  class A:
 
 #     #constructor
@@ -7,14 +7,14 @@
 
 
 # class B(A):
-#   passh
+#   pass
 
-# #in inheritance if sub class has no constructor/init it call the constructor of superclass
+# # inheritance if sub class has no constructor/__init__; it call the constructor of superclass
 # c1=B()
 
 # 333333333333333333333333333333333333333333333333333333
 
-# #if both super and sub class have their own constructor/init
+# #if both super and sub class have their own constructor/__init__
 # class A:
 
 #     #constructor
@@ -53,7 +53,7 @@
 
 # 333333333333333333333333333333333333333333333333333333333333333333333333
 
-#Method Resolution Order MRO; in case of multiple inheritance it will start inferit from left to right
+#Method Resolution Order MRO; in case of multiple inheritance it will start inherit from left to right
 class A:
     def __init__(self):
         print('init A')
